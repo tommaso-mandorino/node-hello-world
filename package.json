@@ -1,0 +1,20 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Hello World exercise",
+  "homepage": "https://github.com/tommaso-mandorino/node-hello-world#readme",
+  "bugs": {
+    "url": "https://github.com/tommaso-mandorino/node-hello-world/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommaso-mandorino/node-hello-world.git"
+  },
+  "license": "ISC",
+  "author": "Tommaso Mandorino",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
