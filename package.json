@@ -12,7 +12,7 @@
   },
   "license": "ISC",
   "author": "Tommaso Mandorino",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node --env-file=.env index.js",
@@ -20,6 +20,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "axios": "^1.10.0",
+    "chalk": "^5.4.1",
     "dot-env": "^0.0.1"
   }
 }
