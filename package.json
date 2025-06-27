@@ -15,8 +15,11 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "watch": "node --watch index.js",
+    "start": "node --env-file=.env index.js",
+    "watch": "node --env-file=.env --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dot-env": "^0.0.1"
   }
 }
